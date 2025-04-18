@@ -2,9 +2,9 @@
 
                       ANSI
                  escape sequence   
-                      \003[m
+                      \033[m
 
-                Ex:  \003[0:33:44m
+                Ex:  \033[0:33:44m
 
      STYLE            TEXT            BACK         
 
