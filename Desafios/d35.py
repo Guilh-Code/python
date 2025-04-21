@@ -1,5 +1,6 @@
 # Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 
+
 print('-=-' * 7)               # Para ser um triãngulo:
 print('ANALISANDO TRIÂNGULO')  # A soma de dois lados tem que ser maior que o terceiro lado.
 print('-=-' * 7)

@@ -1,3 +1,6 @@
 # Crie um programa que escreva "Olá, Mundo" na tela.
 
-print ('Olá, Mundo!')
+
+# Exibe a mensagem "Olá, Mundo!" na tela
+print('Olá, Mundo!')
+

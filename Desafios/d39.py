@@ -3,3 +3,4 @@
 # - Se é a HORA DE SE ALISTAR.
 # - Se já PASSOU DO TEMPO do alistamento.
 # Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+
