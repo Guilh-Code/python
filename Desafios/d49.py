@@ -1,0 +1,1 @@
+# Refaça o DESAFIO 9, mostrando a TABUADA de um número que o usuário escolher, só que agora utilizando um LAÇO FOR.

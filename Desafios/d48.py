@@ -1,0 +1,1 @@
+# Faça um programa que calcule a SOMA entre todos os NÚMEROS IMPARES que são MÚLTUPLO DE TRÊS e que se encontram no intervalo de 1 até 500.
