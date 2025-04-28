@@ -26,17 +26,13 @@ opcao = 0  # Inicializa a variável da opção com 0
 while opcao != 5:
     
     # Mostra o menu com opções
-    print(f"""
-{roxo}----- MENU -----
-[ 1 ] somar
-[ 2 ] multiplicar
-[ 3 ] maior
-[ 4 ] novos números
-[ 5 ] sair do programa
-{reset}""")
+    print(f"""{roxo}    [ 1 ] somar
+    [ 2 ] multiplicar
+    [ 3 ] maior
+    [ 4 ] novos números
+    [ 5 ] sair do programa{reset}""") 
     
-    # Lê a opção escolhida pelo usuário
-    opcao = int(input(f"{amarelo}>>>>> Qual é a sua opção? {reset}"))
+    opcao = int(input(f"{amarelo}>>>>> Qual é a sua opção? {reset}")) # Lê a opção escolhida pelo usuário
     
     
     # Opção 1: somar os dois números
@@ -65,6 +61,6 @@ while opcao != 5:
     else:
         print(f"{vermelho}Opção inválida. Tente novamente.{reset}")
 
+    print('=-=' * 10)
 # Mensagem final fora do laço
 print(f"{verde}Programa encerrado com sucesso!{reset}")
-

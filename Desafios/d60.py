@@ -22,12 +22,20 @@ while contador > 0:
     # Se for igual a 1, imprime "=" para finalizar a sequência
     print('x' if contador != 1 else " = ", end=" ")
 
-    
-    fatorial *= contador # Multiplica o valor atual do contador no fatorial
-
-    
+    fatorial *= contador # Multiplica o valor atual do contador no fatorial 
     contador -= 1 # Diminui o contador em 1 para o próximo passo do laço
-
 
 print(f'{fatorial}') # Após sair do laço, imprime o resultado final do fatorial
 
+#----------------------------------------------------------------------------------
+
+# Forma mais simples de fazer: (Usando 4 linhas)
+
+'''
+from math import factorial
+
+n = int(input('Digite um número para calcular seu Fatorial: '))
+f = factorial(n)
+
+print(f'o fatorial de {n} é {f}')
+'''
