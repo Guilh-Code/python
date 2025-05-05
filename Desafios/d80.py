@@ -9,6 +9,7 @@ for c in range(0, 5):  # Um laço que se repete 5 vezes (de 0 até 4)
     # Se a lista estiver vazia ou o número for maior que o último da lista
     if not lista or num > lista[-1]:
         lista.append(num)  # Adiciona o número ao final da lista
+        print('Adicionado ao final da lista...')
 
     else:
         pos = 0  # Variável de posição começa em 0
@@ -18,8 +19,10 @@ for c in range(0, 5):  # Um laço que se repete 5 vezes (de 0 até 4)
             # Se o número digitado for menor ou igual ao número na posição atual
             if num <= lista[pos]:
                 lista.insert(pos, num)  # Insere o número na posição correta (antes de um número maior ou igual)
+                print(f'Adicionado na posição {pos} da lista...')
                 break  # Sai do laço porque o número já foi inserido
             pos += 1  # Avança para a próxima posição da lista
 
-print(lista)  # Exibe a lista final com os números ordenados
+print('-=-' * 18)
+print(f'Os valores digitados em ordem foram {lista}')  # Exibe a lista final com os números ordenados
    

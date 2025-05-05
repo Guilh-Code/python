@@ -8,6 +8,7 @@ impar = []    # Lista apenas com os ímpares
 while True:
     num = int(input('Digite um valor: '))
     valores.append(num)  # Adiciona o número à lista geral
+    print('Valor adicionado com sucesso...')
     
     if num % 2 == 0:
         par.append(num)  # Se for par, adiciona à lista de pares
@@ -20,7 +21,7 @@ while True:
         break
 
 # Impressão dos resultados, com listas ordenadas
-print('-=-' * 20)
+print('-=-' * 13)
 print(f'A lista completa é {sorted(valores)}')
 print(f'A lista de pares é {sorted(par)}')
 print(f'A lista de ímpares é {sorted(impar)}')

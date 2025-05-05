@@ -19,16 +19,16 @@ print('-=-' * 15)
 
 
 # Mostra quantos números foram digitados
-print(f'Foram digitados {len(valores)} números na lista')
+print(f'Foram digitados {len(valores)} valores na lista')
 
 
 # Ordena a lista em ordem decrescente e mostra
 valores.sort(reverse=True)  # Aqui ordena de forma decrescente
-print(f'Sua lista em forma decrescente: {valores}')  # Agora exibe corretamente
+print(f'Os valores em ordem decrescente são {valores}')  # Agora exibe corretamente
 
 
 # Verifica se o número 5 está na lista
 if 5 in valores:
     print('O valor 5 FAZ parte da lista!')
 else:
-    print('O valor 5 NÃO faz parte da lista!')
+    print('O valor 5 NÃO foi encontrado na lista!')
