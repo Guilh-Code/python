@@ -3,7 +3,7 @@
 A maior nota
 A menor nota
 A média da turma
-A situação (opcional)'''
+A situação (opcional).'''
 
 
 # Função 'notas' que recebe várias notas (usando *n) e um parâmetro opcional 'sit'
