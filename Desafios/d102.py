@@ -23,3 +23,4 @@ def fatorial(n, show=False):
 
 # Chama a função com n=5 e show=True, mostrando o processo da multiplicação
 print(fatorial(5, show=True))
+

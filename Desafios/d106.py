@@ -38,3 +38,4 @@ while True:
         break  # Encerra o loop
     
     ajuda(comando)  # Chama a função de ajuda
+

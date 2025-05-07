@@ -31,3 +31,4 @@ def voto(ano):
 nasc = int(input('Em que ano você nasceu? '))
 # Chama a função 'voto' com o ano informado e imprime o resultado
 print(voto(nasc))
+

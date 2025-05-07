@@ -34,3 +34,4 @@ def notas(*n, sit=False):
 resp = notas(5.5, 2.5, 9, 8.5, sit=True)
 # Exibe o resultado retornado
 print(resp)
+

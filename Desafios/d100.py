@@ -39,3 +39,4 @@ numeros = []
 sorteia(numeros)
 # Chama a função para somar os valores pares da lista
 somaPar(numeros)
+

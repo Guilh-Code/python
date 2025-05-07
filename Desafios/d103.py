@@ -25,3 +25,4 @@ if n.strip() == '':
     ficha(gol=g)  # Chama a função só com gols, nome será <desconhecido>
 else:
     ficha(n, g)  # Chama a função com nome e gols informados
+

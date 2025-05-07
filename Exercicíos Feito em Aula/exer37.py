@@ -10,3 +10,4 @@ if par(num):
     print('É par!')
 else:
     print('Não é par!')
+
