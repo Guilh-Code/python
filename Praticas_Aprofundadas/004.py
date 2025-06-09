@@ -120,7 +120,9 @@ def calcular_imc():
 def sair_menu():
     r = ''
     while r not in ['S', 'M']:
+        print()
         r = str(input(f'{AZUL}Deseja voltar ao menu digite [M] ou para sair [S]:{RESET}{VERDE} ')).upper().strip()
+        print()
         if r == 'S':
             print(f'{CIANO}Programa Encerrando... Até a proxima{RESET} :)')
             sleep(1)
@@ -134,6 +136,7 @@ def sair_menu():
 while True:
     mostrar_menu()
     opcao = input('Escolha uma opção (1 a 4): ')
+    print()
 
     if opcao == '1':
         explicar_o_que_e_imc()
